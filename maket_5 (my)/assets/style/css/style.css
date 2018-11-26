@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  min-height: 600px;
+  background: url(../../img/bridge_header.jpg) no-repeat center;
+  background-size: cover;
+  position: relative; }
+  .main-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#c3c3c3), color-stop(99%, rgba(37, 37, 37, 0.59)), to(rgba(21, 21, 21, 0.9)));
+    background: linear-gradient(to bottom, #c3c3c3 0%, rgba(37, 37, 37, 0.59) 99%, rgba(21, 21, 21, 0.9) 100%);
+    opacity: 0.8;
+    z-index: 0; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 15vh;
+  width: 90%;
+  position: relative;
+  z-index: 2; }
+
+.menu {
+  width: 70%; }
+  .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .menu ul li {
+      list-style-type: none; }
+      .menu ul li a {
+        display: block;
+        padding: 15px;
+        font-size: 25px;
+        color: #fff;
+        text-transform: uppercase; }
+
+.logo img {
+  height: 100px; }
+
+.main-text {
+  color: black;
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .main-text h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0.5rem; }
+  .main-text span {
+    display: inline-block; }
+    .main-text span:after {
+      content: "";
+      width: 20px;
+      height: 1px;
+      display: inline-block;
+      vertical-align: middle;
+      background-color: #000000;
+      margin-left: 10px; }
+    .main-text span:before {
+      content: "";
+      width: 20px;
+      height: 1px;
+      display: inline-block;
+      vertical-align: middle;
+      background-color: #000000;
+      margin-right: 10px; }
+
+.main-arrow {
+  font-size: 45px;
+  color: aliceblue;
+  z-index: 2; }
+  .main-arrow a {
+    font-size: 45px;
+    color: aliceblue; }
